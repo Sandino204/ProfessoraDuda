@@ -56,10 +56,10 @@ function Intro1(value){
     }else if(value >= 5){
         return(
             <div className="col-8 row justify-content-center rounde" style={{height: "60vh", marginTop: "20vh"}}>
-                <h2 className="col-12 text-light text-center">Você quer inicar a sua jornada<br></br> rumo aos seus objetivos <br></br> Comigo, aqui e agora?</h2>
+                <h2 className="col-12 text-light text-center">Você quer iniciar a sua jornada<br></br> rumo aos seus objetivos <br></br> comigo, aqui e agora?</h2>
                 <Link to="/login" type="button" className="btn  pt-2 col-3 text-light orange rounded mt-5" style={{height: "50px"}}>Sim</Link>
                 <a type="button" className="btn offset-2 pt-2 col-3 text-light orange rounded mt-5" style={{height: "50px"}}>Não</a>
-                <h3 className="col-12 text-light text-center mt-5">Você --------------> Seus Objetivos</h3>
+                <h3 className="col-12 text-light text-center mt-5">A revolução é o que nos move</h3>
             </div>
         )
     }
