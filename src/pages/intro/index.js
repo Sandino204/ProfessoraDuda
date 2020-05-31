@@ -18,7 +18,7 @@ function Intro1(value){
         return(
             <div className="col-8 row" style={{ marginTop: "10vh"}}>
                 <div className="col-12 mt-0 mb-0 " style={{height: "250px", marginTop: "250px"}}><img src={Prof}  style={{height: "250px", marginTop: "250px"}} alt="Prof Duda"s className="m-0"/></div>
-                <div className="col-12 pt-4 pb-5 orange rounded shadow row mt-0 text1"> 
+                <div className="col-12 orange rounded shadow row py-5"> 
                     <h2 className="col-12 text-center text-light">Oi!</h2>
                     <h3 className="col-12 text-center text-light">Eu sou a Professora Duda</h3>
                     <h3 className="col-12 text-center text-light">Sua parceira nessa jornada</h3>
