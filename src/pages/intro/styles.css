@@ -1,0 +1,11 @@
+.intro{
+    height: 80vh;
+    margin-top: 10vh;
+}
+.h1I{
+    display: inline-block;
+}
+.text1{
+    position: absolute;
+    top: 0vh;
+}

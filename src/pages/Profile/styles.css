@@ -1,0 +1,11 @@
+.profileP{
+    width: 97.5vw;
+    height: 92.5vh;
+    z-index: 1000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.hidin{
+    overflow: hidden;
+}
