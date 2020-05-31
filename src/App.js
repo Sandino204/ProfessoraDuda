@@ -5,6 +5,7 @@ import { BrowserRouter, Router, Route, NavLink, Switch, Redirect } from 'react-r
 import Forms from './pages/Login'
 import Profile from './pages/Profile'
 import {DATA} from './database/db'
+import Price1 from './pages/price1'
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
         <Route exact path="/" component={Introb}></Route>
         <Route exact path="/login" component={Forms}></Route>
         <Route path="/profile/:myId" component={ProfileId}></Route>
+        <Route path="/price1" component={Price1}></Route>
         {/* <Route path="/chat" component={Chat}></Route> */}
         <Redirect to="/"></Redirect>
       </Switch>
