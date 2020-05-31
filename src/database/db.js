@@ -10,6 +10,7 @@ export const DATA = [
         age: 40, 
         gender: 'Masculino', 
         education: 'Ensino Medio', 
-        midias: 'Facebook, instagram, email, telefone e watsapp'
+        midias: 'Facebook, instagram, email, telefone e watsapp',
+        conq: 1
     }
 ]

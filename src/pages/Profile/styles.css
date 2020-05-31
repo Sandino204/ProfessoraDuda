@@ -7,5 +7,6 @@
     right: 0;
 }
 .hidin{
-    overflow: hidden;
+    overflow:scroll;
+    overflow-x:hidden;
 }

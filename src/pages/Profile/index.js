@@ -14,9 +14,74 @@ function Profile({data}){
         const age = data.age
         const gender = data.gender
         const Education = data.education
-        const midias = data.education
+        const midias = data.midias
+        const conq = data.conq
+
+        function conqe(conq){
+            if(conq === 0){
+                return(
+                    <div className="col-8 row justify-content-end mt-5 ml-auto">
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Poupa Para Mim</h3>
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Iniciante</h3>
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Conservador</h3>
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Moderado</h3>
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Agressivo</h3>
+                    </div>
+                )
+            }else if(conq === 1){
+                return(
+                    <div className="col-8 row justify-content-end mt-5 ml-auto">
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Poupa Para Mim</h3>
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Iniciante</h3>
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Conservador</h3>
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Moderado</h3>
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Agressivo</h3>
+                    </div>
+                )
+            }else if(conq === 2){
+                return(
+                    <div className="col-8 row justify-content-end mt-5 ml-auto">
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Poupa Para Mim</h3>
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Iniciante</h3>
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Conservador</h3>
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Moderado</h3>
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Agressivo</h3>
+                    </div>
+                )
+            }else if(conq === 3){
+                return(
+                    <div className="col-8 row justify-content-end mt-5 ml-auto">
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Poupa Para Mim</h3>
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Iniciante</h3>
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Conservador</h3>
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Moderado</h3>
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Agressivo</h3>
+                    </div>
+                )
+            }else if(conq === 4){
+                return(
+                    <div className="col-8 row justify-content-end mt-5 ml-auto">
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Poupa Para Mim</h3>
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Iniciante</h3>
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Conservador</h3>
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Moderado</h3>
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Agressivo</h3>
+                    </div>
+                )
+            }else if(conq === 5){
+                return(
+                    <div className="col-8 row justify-content-end mt-5 ml-auto">
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Poupa Para Mim</h3>
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Iniciante</h3>
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Conservador</h3>
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Moderado</h3>
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Agressivo</h3>
+                    </div>
+                )
+            }
+        }
+
         const objetivos = 'Marcos tem  economizado dinheiro para comprar um apartamento proprio e morar com sua familia, e deseja se organizar melhor e equilibrar as finaças para começar a investir parte do seu salario e economizou'
-        const conquist = 'Atendido pela Duda no dia 30/05/2020 as 15:00'
         return(
             <div className="container-fluid orange2 all">
                 <Row><h1 className="text-white ml-5">Profile: {nameall}</h1></Row>
@@ -28,9 +93,7 @@ function Profile({data}){
                                     <h2 className="col-12 text-primary text-center">{name}</h2>
                                     <h4 className="col-12 text-secondary text-center mb-5">{Job}</h4>
                                 </div>
-                                <div className="col-8 row justify-content-end mt-5 ml-auto">
-                                    <h3 className="font-weight-bold col-12 mb-5">{conquist}</h3>
-                                </div>
+                                {conqe(conq)}
                                 <div className="col-7 row">
                                 <div className="col-12 row mt-5">
                                         <p className="col-2 font-weight-bold">Empresa: </p>
