@@ -45,4 +45,4 @@ function Price3() {
     )
 }
 
-export default Price1
+export default Price3

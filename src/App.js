@@ -6,6 +6,10 @@ import Forms from './pages/Login'
 import Profile from './pages/Profile'
 import {DATA} from './database/db'
 import Price1 from './pages/price1'
+import Price2 from './pages/price2'
+import Price3 from './pages/price3'
+import Price4 from './pages/price4'
+import Price5 from './pages/price5'
 
 function App() {
 
@@ -36,6 +40,10 @@ function App() {
         <Route exact path="/login" component={Forms}></Route>
         <Route path="/profile/:myId" component={ProfileId}></Route>
         <Route path="/price1" component={Price1}></Route>
+        <Route path="/price2" component={Price2}></Route>
+        <Route path="/price3" component={Price3}></Route>
+        <Route path="/price4" component={Price4}></Route>
+        <Route path="/price5" component={Price5}></Route>
         {/* <Route path="/chat" component={Chat}></Route> */}
         <Redirect to="/"></Redirect>
       </Switch>

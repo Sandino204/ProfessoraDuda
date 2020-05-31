@@ -4,7 +4,7 @@ import './styles.css'
 import { Link, useHistory} from 'react-router-dom'
 import {DATA} from '../../database/db'
 
-function Price2() {
+function Price5() {
 
     const [cpf, setCpf] = useState('')
     const [pass, setPass] = useState('')
@@ -45,4 +45,4 @@ function Price2() {
     )
 }
 
-export default Price1
+export default Price5

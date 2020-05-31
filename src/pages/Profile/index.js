@@ -21,8 +21,8 @@ function Profile({data}){
             if(conq === 0){
                 return(
                     <div className="col-8 row justify-content-end mt-5 ml-auto">
-                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Poupa Para Mim</h3>
                         <h3 className="font-weight-bold text-secondary col-12 mb-5">Iniciante</h3>
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Poupa Para Mim</h3>
                         <h3 className="font-weight-bold text-secondary col-12 mb-5">Conservador</h3>
                         <h3 className="font-weight-bold text-secondary col-12 mb-5">Moderado</h3>
                         <h3 className="font-weight-bold text-secondary col-12 mb-5">Agressivo</h3>
@@ -31,8 +31,8 @@ function Profile({data}){
             }else if(conq === 1){
                 return(
                     <div className="col-8 row justify-content-end mt-5 ml-auto">
-                        <h3 className="font-weight-bold text-warning col-12 mb-5">Poupa Para Mim</h3>
-                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Iniciante</h3>
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Iniciante</h3>
+                        <h3 className="font-weight-bold text-secondary col-12 mb-5">Poupa Para Mim</h3>
                         <h3 className="font-weight-bold text-secondary col-12 mb-5">Conservador</h3>
                         <h3 className="font-weight-bold text-secondary col-12 mb-5">Moderado</h3>
                         <h3 className="font-weight-bold text-secondary col-12 mb-5">Agressivo</h3>
@@ -41,8 +41,8 @@ function Profile({data}){
             }else if(conq === 2){
                 return(
                     <div className="col-8 row justify-content-end mt-5 ml-auto">
-                        <h3 className="font-weight-bold text-warning col-12 mb-5">Poupa Para Mim</h3>
                         <h3 className="font-weight-bold text-warning col-12 mb-5">Iniciante</h3>
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Poupa Para Mim</h3>
                         <h3 className="font-weight-bold text-secondary col-12 mb-5">Conservador</h3>
                         <h3 className="font-weight-bold text-secondary col-12 mb-5">Moderado</h3>
                         <h3 className="font-weight-bold text-secondary col-12 mb-5">Agressivo</h3>
@@ -51,8 +51,8 @@ function Profile({data}){
             }else if(conq === 3){
                 return(
                     <div className="col-8 row justify-content-end mt-5 ml-auto">
-                        <h3 className="font-weight-bold text-warning col-12 mb-5">Poupa Para Mim</h3>
                         <h3 className="font-weight-bold text-warning col-12 mb-5">Iniciante</h3>
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Poupa Para Mim</h3>
                         <h3 className="font-weight-bold text-warning col-12 mb-5">Conservador</h3>
                         <h3 className="font-weight-bold text-secondary col-12 mb-5">Moderado</h3>
                         <h3 className="font-weight-bold text-secondary col-12 mb-5">Agressivo</h3>
@@ -61,8 +61,8 @@ function Profile({data}){
             }else if(conq === 4){
                 return(
                     <div className="col-8 row justify-content-end mt-5 ml-auto">
-                        <h3 className="font-weight-bold text-warning col-12 mb-5">Poupa Para Mim</h3>
                         <h3 className="font-weight-bold text-warning col-12 mb-5">Iniciante</h3>
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Poupa Para Mim</h3>
                         <h3 className="font-weight-bold text-warning col-12 mb-5">Conservador</h3>
                         <h3 className="font-weight-bold text-warning col-12 mb-5">Moderado</h3>
                         <h3 className="font-weight-bold text-secondary col-12 mb-5">Agressivo</h3>
@@ -71,8 +71,8 @@ function Profile({data}){
             }else if(conq === 5){
                 return(
                     <div className="col-8 row justify-content-end mt-5 ml-auto">
-                        <h3 className="font-weight-bold text-warning col-12 mb-5">Poupa Para Mim</h3>
                         <h3 className="font-weight-bold text-warning col-12 mb-5">Iniciante</h3>
+                        <h3 className="font-weight-bold text-warning col-12 mb-5">Poupa Para Mim</h3>
                         <h3 className="font-weight-bold text-warning col-12 mb-5">Conservador</h3>
                         <h3 className="font-weight-bold text-warning col-12 mb-5">Moderado</h3>
                         <h3 className="font-weight-bold text-warning col-12 mb-5">Agressivo</h3>
