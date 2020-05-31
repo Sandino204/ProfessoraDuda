@@ -71,7 +71,7 @@ function Intro(){
 
     setTimeout(function(){
         setValue(value + 1);
-    }, 3000)
+    }, 5000)
     
 
     return(
