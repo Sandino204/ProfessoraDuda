@@ -109,7 +109,7 @@ function Profile({data}){
         const objetivos = 'Marcos tem  economizado dinheiro para comprar um apartamento proprio e morar com sua familia, e deseja se organizar melhor e equilibrar as finaças para começar a investir parte do seu salario e economizou'
         return(
             <div className="container-fluid orange2 all">
-                <Row><h1 className="text-white ml-5">Profile: {conqN(conq)} <Link to="/price5">Prices</Link></h1></Row>
+                <Row><h1 className="text-white ml-5">Profile: {conqN(conq)}</h1></Row>
                     <div className="profileP bg-white">
                         <div className="container">
                             <div className="row">
